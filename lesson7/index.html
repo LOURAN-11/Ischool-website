@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Travel Form</title>
+
+</head>
+
+<body>
+    <video autoplay loop muted id='bg-video'>
+        <source src="pyramids.mp4" type="video/mp4">
+    </video> 
+
+    <form id="next-trip-form">
+        <h1 id="title">Plan Your Next Trip With Me ...</h1>
+        <p id="description">Please take a moment to get in touch</p>
+
+        <div>
+            <label for="name">Full name:</label>
+            <input id="name" type="text" placeholder="Full Name">
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="User@email.com">
+        </div>
+
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input id="phone" type="tel" placeholder="+###########">
+        </div>
+
+        <div>
+            <label for="Cities">Choose where you want to travel:</label>
+            <select name="Cities" id="Cities">
+                <option value="">Choose an option</option>
+                <option value="cairo">cairo</option>
+                <option value="hurghada">hurghada</option>
+                <option value="sharm el sheikh">sharm el sheikh</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="travel-date">Travel Date:</label>
+            <input type="date" id="travel-date">
+        </div>
+
+        <div>
+            <p>Purpose of Travel:</p>
+            <div class="radio-group">
+                <label><input type="radio" name="purpose" value="Vacation"> Vacation</label>
+                <label><input type="radio" name="purpose" value="Business"> Business</label>
+                <label><input type="radio" name="purpose" value="Other"> Other</label>
+            </div>
+        </div>
+
+        <div>
+            <label class="checkbox-label">
+                <input type="checkbox" id="subscribe"> Subscribe for travel updates
+            </label>
+        </div>
+
+        <div>
+            <label for="comment">Additional comments:</label>
+            <textarea id="comment" rows="4"></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
