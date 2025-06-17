@@ -1,0 +1,31 @@
+body{
+    background-color: peachpuff;
+}
+nav ul{
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul li a {
+    color: olive;
+}
+table,th,td{
+    border: 1px solid honeydew;
+    border-collapse: collapse;
+}
+tr{
+    background-color: palegoldenrod;
+}
+img{
+    width: 30%;
+}
